@@ -17,5 +17,3 @@ router.delete("/:id", vendors.delete);
 router.delete("/", vendors.deleteAll);
 
 module.exports = router;
-
-module.exports = router
